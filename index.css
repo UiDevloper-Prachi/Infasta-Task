@@ -1,0 +1,356 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+.bg-container {
+  background-color: #f5f6f8;
+  min-height: 100vh;
+  position: absolute;
+  padding-top: 0px;
+  width: 100%;
+}
+.top-header {
+  background-image: url("header-banner.png");
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  gap: 5px;
+}
+
+@media screen and (min-width: 768px) {
+  .top-header {
+    flex-direction: row;
+  }
+}
+
+.top-heading {
+  font-weight: normal;
+  font-size: 20px;
+  text-align: center;
+}
+@media screen and (min-width: 768px) {
+  .top-heading {
+    font-weight: normal;
+  }
+}
+
+.main-header {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+.header-content {
+  width: 90%;
+  margin: auto;
+  max-width: 1150px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-logo {
+  height: 50px;
+  width: 50px;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+  .navlist {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+  }
+}
+
+.nav-list-item {
+  list-style: none;
+  margin-left: 10px;
+}
+.nav-link {
+  text-decoration: none;
+  color: #1e1e1e;
+}
+
+.apply-button {
+  display: none;
+}
+
+@media screen and (min-wdith: 768px) {
+  .header-logo {
+    height: 100px;
+    width: 100px;
+  }
+}
+
+.navlist {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .telegram-icon {
+    display: block;
+    width: 200px;
+  }
+}
+
+.container-info {
+  padding: 10px;
+}
+
+@media screen and (min-wdith: 768px) {
+  .container-info {
+    width: 350px;
+  }
+}
+.info-button {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 50px;
+  border-width: 0px;
+  color: white;
+  background-color: gold;
+  margin-bottom: 10px;
+}
+.info-heading {
+  font-size: 24px;
+  font-weight: 500;
+  color: #1e1e1e;
+  margin-bottom: 10px;
+}
+@media screen and (min-width: 768px) {
+  .info-heading {
+    font-size: 32px;
+  }
+}
+.highlight-text {
+  font-size: 24px;
+  font-weight: bold;
+  color: black;
+  margin-bottom: 5px;
+}
+
+@media screen and (min-width: 768px) {
+  .apply-button {
+    padding: 10px 20px;
+    border: 7px;
+    border-width: 0px;
+    background-color: rgb(143, 143, 222);
+    color: #ffff;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+  }
+}
+
+.Click-menu {
+  display: block;
+  cursor: pointer;
+  border-width: 0px;
+  background-color: transparent;
+}
+
+@media screen and (min-width: 768px) {
+  .Click-menu {
+    display: none;
+  }
+}
+.main-container {
+  display: flex;
+  flex-direction: column;
+}
+@media screen and (min-width: 768px) {
+  .main-container {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+.telegram-icon {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .highlight-text {
+    font-size: 32px;
+  }
+}
+.info-description {
+  color: #1e1e1e;
+  margin-bottom: 10px;
+}
+
+.info-sub-description {
+  color: gray;
+  margin-bottom: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .info-sub-description {
+    width: 350px;
+  }
+}
+.info-button-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.apply-button-mobile {
+  padding: 10px 20px;
+  border: 7px;
+  border-width: 0px;
+  background-color: blue;
+  color: #ffff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.demo-call-button {
+  border: 1px solid gray;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 5px;
+  background-color: transparent;
+  color: black;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.image-details-container {
+  position: relative;
+  height: 400px;
+  width: 90%;
+  margin: auto;
+  margin-top: 20px;
+}
+@media screen and (min-width: 768px) {
+  .image-details-container {
+    width: 500px;
+  }
+}
+
+.girl-image {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+.digital-grid {
+  width: 100px;
+  position: absolute;
+  top: 200px;
+  left: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .digital-grid {
+    width: 150px;
+  }
+}
+.up-arrow {
+  width: 50px;
+  position: absolute;
+  top: 50px;
+  left: 100px;
+}
+@media screen and (min-width: 768px) {
+  .up-arrow {
+    width: 70px;
+    top: 70px;
+    left: 100px;
+  }
+}
+.instructor-badge {
+  width: 100px;
+  position: absolute;
+  top: 200px;
+  left: 70px;
+}
+@media screen and (min-width: 768px) {
+  .instructor-badge {
+    width: 150px;
+    top: 200px;
+    left: 100px;
+  }
+}
+.trust-ratting {
+  width: 100px;
+  position: absolute;
+  top: 200px;
+  left: 220px;
+}
+@media screen and (min-width: 768px) {
+  .trust-ratting {
+    width: 150px;
+    top: 230px;
+    left: 300px;
+  }
+}
+.student-enrolement {
+  width: 150px;
+  position: absolute;
+  top: 300px;
+  left: 150px;
+}
+@media screen and (min-width: 768px) {
+  .student-enrolement {
+    width: 200px;
+    left: 250px;
+  }
+}
+
+.mobile-nav-container {
+  transition: width 2s;
+  padding: 20px;
+  width: 50%;
+  box-shadow: 3px 3px 3px gray;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  background-color: rgb(255, 235, 133);
+  display: none;
+  flex-grow: 1;
+}
+.mobile-nav-list {
+  padding-left: 0px;
+}
+.close-icon-container {
+  text-align: end;
+}
+.close-icon {
+  background-color: transparent;
+  border-width: 0px;
+  font-size: 30px;
+  cursor: pointer;
+  color: rgb(255, 255, 255);
+  color: gray;
+}
+.mobile-nav-list-item {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.mobile-nav-link {
+  font-weight: bold;
+  color: #280808;
+}
+
+.mobile-nav-link:hover {
+  color: rgb(166, 81, 81);
+}
